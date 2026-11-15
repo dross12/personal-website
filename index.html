@@ -4,149 +4,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Lens & Light Photography - Exploring nature, landscapes and beautiful moments.">
+
     <title>Lens & Light | Photography</title>
+
+    <!-- External CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav>
-            <h2 class="logo">LENS & LIGHT</h2>
+    <!-- Website Header and Navigation -->
+    <header class="header" id="home">
+        <nav class="navbar" aria-label="Main navigation">
 
-            <ul>
+            <a href="#home" class="logo">LENS <span>& LIGHT.</span></a>
+
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
         </nav>
     </header>
 
-    <!-- Home Section -->
-    <section id="home" class="home">
+    <!-- Main Website Content -->
+    <main>
 
-        <div class="home-content">
-            <p class="subtitle">WELCOME TO MY PHOTOGRAPHY WORLD</p>
+        <!-- Hero / Home Section -->
+        <section class="hero" aria-labelledby="hero-title">
 
-            <h1>Capturing Moments,<br>Creating Memories.</h1>
+            <div class="hero-content">
+                <p class="subtitle">WELCOME TO MY PHOTOGRAPHY WORLD</p>
 
-            <p>
-                Photography is the art of capturing beautiful moments
-                and turning ordinary experiences into unforgettable memories.
-                Explore my photography interests and creative work.
-            </p>
+                <h1 id="hero-title">
+                    Capturing Moments,<br>
+                    Creating Memories.
+                </h1>
 
-            <a href="#portfolio" class="btn">Explore My Work</a>
-        </div>
+                <p>
+                    Discover the beauty of the world through my lens.
+                    Explore nature, landscapes, wildlife and creative photography.
+                </p>
 
-    </section>
+                <a href="#portfolio" class="btn">Explore My Work</a>
+            </div>
 
-    <!-- About Section -->
-    <section id="about" class="about">
+        </section>
 
-        <h1>About Me</h1>
+        <!-- About Section -->
+        <section class="about section-padding" id="about">
 
-        <div class="about-content">
+            <div class="section-heading">
+                <p class="subtitle">GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
 
-            <div class="about-image">
-                <img
-                    src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=700"
+            <article class="about-content">
+
+                <figure class="about-image">
+                    <!-- Locally stored image -->
+                   <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=700"
                     alt="Professional camera used for photography">
+                    <figcaption>My passion for capturing moments.</figcaption>
+                </figure>
+
+                <div class="about-text">
+                    <h3>My Passion for Photography</h3>
+
+                    <p>
+                        I enjoy photography, especially capturing nature,
+                        landscapes, wildlife and beautiful scenery.
+                        Photography allows me to express creativity and
+                        preserve special moments.
+                    </p>
+
+                    <p>
+                        My goal is to improve my photography skills,
+                        explore different photography styles and
+                        capture the beauty of the world around me.
+                    </p>
+
+                    <a href="#contact" class="text-link">Get In Touch &rarr;</a>
+                </div>
+
+            </article>
+
+            <!-- Photography Interests -->
+            <div class="interests">
+                <h3>My Photography Interests</h3>
+
+                <ul class="interest-list">
+                    <li>Landscape Photography</li>
+                    <li>Nature Photography</li>
+                    <li>Wildlife Photography</li>
+                    <li>Portrait Photography</li>
+                    <li>Street Photography</li>
+                </ul>
             </div>
 
-            <div class="about-text">
+        </section>
 
-                <h2>My Passion for Photography</h2>
+        <!-- Portfolio Section -->
+        <section class="portfolio section-padding" id="portfolio">
 
-                I enjoy photography, especially capturing nature, landscapes, wildlife, and beautiful scenery. My goal is to improve my photography skills and creativity while exploring different styles.
-
+            <div class="section-heading">
+                <p class="subtitle">MY CREATIVE COLLECTION</p>
+                <h2>My Photography Portfolio</h2>
+                <p>
+                    A collection of beautiful places and scenery
+                    that inspire my interest in photography.
+                </p>
             </div>
 
-        </div>
+            <div class="gallery">
 
-        <h2 class="interests-heading">My Photography Interests</h2>
-
-        <div class="interests">
-            <span>Landscape Photography</span>
-            <span>Nature Photography</span>
-            <span>Wildlife Photography</span>
-            <span>Portrait Photography</span>
-            <span>Street Photography</span>
-        </div>
-
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
-
-        <h1>My Photography Portfolio</h1>
-
-        <p class="portfolio-intro">
-            Explore different photography styles and the beauty
-            of the world through pictures.
-        </p>
-
-        <div class="gallery">
-
-            <div class="gallery-card">
-                <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuxGPKxT4KZY5Q5O9l5u83E9FKNBIASD8n2QanNbCXSGNvyiGzjQ5sjw9s&s=10"
+                <!-- Portfolio Item 1: Local Image -->
+                <article class="gallery-card">
+                    <figure>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuxGPKxT4KZY5Q5O9l5u83E9FKNBIASD8n2QanNbCXSGNvyiGzjQ5sjw9s&s=10"
                     alt="beautiful beach">
-                <h2>Picture of the beach</h2>
+                        <figcaption>
+                            <h3>Beach Scenery</h3>
+                            <p>Landscape Photography</p>
+                        </figcaption>
+                    </figure>
+                </article>
 
-            </div>
+                <!-- Portfolio Item 2: External Image -->
+                <article class="gallery-card">
+                    <figure>
+                        <img
+                            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900"
+                            alt="Beautiful natural landscape with mountains"
+                            loading="lazy">
+                        <figcaption>
+                            <h3>Nature's Beauty</h3>
+                            <p>Nature Photography</p>
+                        </figcaption>
+                    </figure>
+                </article>
 
-            <div class="gallery-card">
-                <img
+                <!-- Portfolio Item 3: Local Image -->
+                <article class="gallery-card">
+                    <figure>
+                         <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAFn7T8epIlNBPGmqvPXLzrtcyMqJzNI4W5x34C3yr_Q&s=10"
                     alt="people of st georges">
+                        <figcaption>
+                            <h3>St. George's</h3>
+                            <p>Travel Photography</p>
+                        </figcaption>
+                    </figure>
+                </article>
 
-                <h2>St Georges</h2>
-
-            </div>
-
-            <div class="gallery-card">
-                <img
+                <!-- Portfolio Item 4: External Image -->
+                <article class="gallery-card">
+                    <figure>
+                        <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk4xJSgck0tg8La7ZcEco9opVE14fkt6cjeTVCAGlAsQ&s=10"
                     alt="underwater">
+                        <figcaption>
+                            <h3>Ocean Views</h3>
+                            <p>Nature Photography</p>
+                        </figcaption>
+                    </figure>
+                </article>
 
-                <h2>Underwater Scenery</h2>
-
-        
             </div>
 
-        </div>
+        </section>
 
-        
+        <!-- Contact Section -->
+        <section class="contact section-padding" id="contact">
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+            <div class="section-heading">
+                <p class="subtitle">LET'S CONNECT</p>
+                <h2>Get In Touch</h2>
+                <p>
+                    Thank you for visiting my photography website.
+                    Feel free to contact me using the information below.
+                </p>
+            </div>
 
-        <h1>Get In Touch</h1>
+            <address class="contact-box">
+                <p><strong>Name:</strong> Dashawn Ross</p>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:dashawn.ross@gmail.com">
+                        dashawn.ross@gmail.com
+                    </a>
+                </p>
+                <p><strong>Location:</strong> Grenada</p>
+                <p><strong>Interest:</strong> Photography</p>
+            </address>
 
-        <p>
-            Thank you for visiting my photography website.
-            Feel free to contact me using the information below.
-        </p>
+        </section>
 
-        <div class="contact-box">
+    </main>
 
-            <p><strong>Name:</strong> Dashawn Ross</p>
-
-            <p><strong>Email:</strong> dashawn.ross@gmail.com</p>
-
-            <p><strong>Location:</strong> Grenada</p>
-
-            <p><strong>Interest:</strong> Photography</p>
-
-        </div>
-
-    </section>
-
-    <!-- Footer -->
-    <footer>
+    <!-- Website Footer -->
+    <footer class="footer">
         <p>&copy; 2026 Lens & Light. All Rights Reserved.</p>
         <p>Photography | Creativity | Memories</p>
     </footer>
