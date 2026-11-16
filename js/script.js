@@ -1,8 +1,8 @@
 
-// ==========================================
+// 
 // LENS & LIGHT PHOTOGRAPHY
 // JavaScript Enhancements
-// ==========================================
+// 
 
 
 // FEATURE 1: DARK MODE / LIGHT MODE

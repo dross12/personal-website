@@ -1,7 +1,5 @@
 
-/* =====================================
-   GENERAL STYLING
-===================================== */
+/*  GENERAL STYLING */
 
 * {
     margin: 0;
@@ -36,9 +34,7 @@ img {
 }
 
 
-/* =====================================
-   HEADER AND NAVIGATION
-===================================== */
+/*HEADER AND NAVIGATION */
 
 .header {
     background-color: #ffffff;
@@ -81,9 +77,7 @@ img {
 }
 
 
-/* =====================================
-   BUTTON STYLING
-===================================== */
+/* BUTTON STYLING */
 
 .btn {
     display: inline-block;
@@ -115,9 +109,7 @@ img {
 }
 
 
-/* =====================================
-   HERO SECTION
-===================================== */
+/* HERO SECTION */
 
 .hero {
     min-height: 550px;
@@ -165,9 +157,7 @@ img {
 }
 
 
-/* =====================================
-   SECTION HEADINGS
-===================================== */
+/* SECTION HEADINGS */
 
 .section-heading {
     text-align: center;
@@ -186,9 +176,7 @@ img {
 }
 
 
-/* =====================================
-   ABOUT SECTION
-===================================== */
+/* ABOUT SECTION */
 
 .about {
     background-color: #fafafa;
@@ -244,9 +232,8 @@ img {
 }
 
 
-/* =====================================
-   PHOTOGRAPHY INTERESTS
-===================================== */
+/*
+   PHOTOGRAPHY INTERESTS */
 
 .interests {
     margin-top: 60px;
@@ -274,9 +261,8 @@ img {
 }
 
 
-/* =====================================
-   PORTFOLIO SECTION
-===================================== */
+/*
+   PORTFOLIO SECTION */
 
 .portfolio {
     background-color: #ffffff;
@@ -321,9 +307,8 @@ img {
 }
 
 
-/* =====================================
-   JAVASCRIPT FEATURE 4: SLIDESHOW
-===================================== */
+/*
+   JAVASCRIPT FEATURE 4: SLIDESHOW */
 
 .slideshow-section {
     text-align: center;
@@ -383,9 +368,8 @@ img {
 }
 
 
-/* =====================================
-   CONTACT SECTION
-===================================== */
+/*
+   CONTACT SECTION */
 
 .contact {
     background-color: #fafafa;
@@ -412,9 +396,8 @@ img {
 }
 
 
-/* =====================================
-   FOOTER
-===================================== */
+/*
+   FOOTER */
 
 .footer {
     background-color: #222222;
@@ -429,9 +412,8 @@ img {
 }
 
 
-/* =====================================
-   JAVASCRIPT FEATURE 5: BACK TO TOP
-===================================== */
+/*
+   JAVASCRIPT FEATURE 5: BACK TO TOP */
 
 #back-to-top {
     position: fixed;
@@ -453,9 +435,8 @@ img {
 }
 
 
-/* =====================================
-   JAVASCRIPT FEATURE 1: DARK MODE
-===================================== */
+/*
+   JAVASCRIPT FEATURE 1: DARK MODE */
 
 body.dark-mode {
     background-color: #171717;
@@ -513,9 +494,8 @@ body.dark-mode .footer {
 }
 
 
-/* =====================================
-   RESPONSIVE DESIGN
-===================================== */
+/*
+   RESPONSIVE DESIGN */
 
 @media (max-width: 768px) {
 
