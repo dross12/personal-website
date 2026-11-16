@@ -1,10 +1,4 @@
 
-// 
-// LENS & LIGHT PHOTOGRAPHY
-// JavaScript Enhancements
-// 
-
-
 // FEATURE 1: DARK MODE / LIGHT MODE
 
 const themeButton = document.getElementById("theme-toggle");
